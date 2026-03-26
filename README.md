@@ -1,6 +1,6 @@
 # 🚀 Machine Learning Fundamentals & Algorithms
 
-This repository contains a comprehensive collection of **Machine Learning concepts, algorithms, and techniques** covering both **Supervised** and **Unsupervised Learning**.  
+This repository contains a comprehensive collection of **Machine Learning concepts, algorithms, and techniques** covering **Supervised**, **Unsupervised Learning**, **Semi-Supervised Learning** and **Reinforcement Learning**.  
 It is designed as a structured learning resource with practical understanding of core ML topics.
 
 ---
@@ -10,6 +10,8 @@ It is designed as a structured learning resource with practical understanding of
 - [Data Preprocessing & Feature Engineering](#-data-preprocessing--feature-engineering)
 - [Supervised Learning](#-supervised-learning)
 - [Unsupervised Learning](#-unsupervised-learning)
+- [Semi-Supervised Learning](#-semi-supervised-learning)
+- [Reinforcement Learning](#-reinforcement-learning)
 - [Model Evaluation](#-model-evaluation)
 - [Objective](#-objective)
 - [Tech Stack](#-tech-stack)
@@ -24,6 +26,7 @@ It is designed as a structured learning resource with practical understanding of
 - **Types of Machine Learning**
   - Supervised Learning
   - Unsupervised Learning
+  - Semi-Supervised Learning
   - Reinforcement Learning
 - **End-to-End ML Pipeline**
   - Data Collection
@@ -40,8 +43,8 @@ It is designed as a structured learning resource with practical understanding of
   - Label Encoding
   - One-Hot Encoding
 - **Feature Scaling**
-  - Normalization (Min-Max Scaling)
-  - Standardization (Z-score Scaling)
+  - Normalization 
+  - Standardization 
 
 ---
 
@@ -60,8 +63,12 @@ It is designed as a structured learning resource with practical understanding of
 - Support Vector Machines (SVM)  
 
 ### 📌 Ensemble Techniques
-- Bagging  
-- Boosting  
+#### 📌 Bagging
+- Random forest
+#### 📌 Boosting
+- Adda Boost
+- Gradient Boost
+- XG Boost
 
 ---
 
@@ -93,7 +100,23 @@ It is designed as a structured learning resource with practical understanding of
 
 ### 📌 Association Rule Learning
 - Apriori Algorithm  
-- FP-Growth Algorithm  
+- FP-Growth Algorithm
+
+## 🔹  Semi-Supervised Learning
+-Concept of combining labeled and unlabeled data
+-Techniques:
+-Label Propagation
+-Label Spreading
+
+## 🔹 Reinforcement Learning
+
+### 📌 Concepts
+-Agent, Environment
+-State, Action, Reward
+-Exploration vs Exploitation
+
+### 📌 Algorithm Implemented
+-Q-Learning
 
 ---
 
@@ -111,7 +134,7 @@ The goal of this repository is to:
 - NumPy  
 - Pandas  
 - Scikit-learn  
-- Matplotlib / Seaborn  
+- Matplotlib / Seaborn
 
 ---
 
@@ -119,7 +142,10 @@ The goal of this repository is to:
 - Add real-world datasets  
 - Implement end-to-end ML projects  
 - Include deep learning concepts  
-- Model deployment using Flask/Streamlit  
+- Model deployment using Flask/Streamlit
+- Deep Learning (ANN, CNN, RNN)
+- Natural Language Processing (NLP)
+- Real-world ML Projects 
 
 ---
 
